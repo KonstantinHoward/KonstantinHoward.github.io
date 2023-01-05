@@ -9,11 +9,3 @@ h1 {
     font-family:'Times New Roman', Times, serif;
 }
 
-.jumbotron {
-    display: flex;
-    align-items: center;
-    background-size: cover;
-    color: #ffffff;
-    height: 500px;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
-  }
