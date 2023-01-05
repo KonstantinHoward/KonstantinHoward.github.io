@@ -1,10 +1,10 @@
 /* @author Konstantin Howard
-   @last_modified 04/01/23
+   @last_modified 05/01/23
    Purpose: CSS stylesheet for homepage of personal website (index.html) */
 
    body {
-    
     font-weight: 300;
+    background-color: white;
   }
   
   header {
@@ -16,6 +16,7 @@
   footer .row {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   header h1 {
@@ -33,52 +34,73 @@
     color: #000000;
     border: 0px;
     margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 100;
+    font-weight: 100px;
   }
 
   header .btn-secondary:hover {
-    background-color:green;
+    background-color:lightblue;
     margin-top: 8px;
   }
+
   
   
   
-  .jumbotron welcome {
+  
+  .jumbotron-flex welcome {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
-    color: #000000;
-    background-color: #000000;
-    height: 200px;
+    background-image: url(Photos/Lake\ in\ December.JPG);
+    height: 300px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
-    padding: 10px;
-    border:red;
+    padding: 0px;
+    border: rgb(16, 181, 227);
     border-style:solid;
+    margin: 0px;
     
   }
 
   
-  
-  .jumbotron h2 {
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-  }
-  
-  .jumbotron h3 {
+  .jumbotron-flex h3 {
     margin: 0 0 20px;
-    color: #fff;
+    color: whitesmoke;
   }
-  
+
+  .row {
+    margin: 0 0 0 0;
+  }
+
+  .col-md-6 img {
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    border:rgb(16, 181, 227);
+    border-style: solid;
+  }
+
+  .col-md-6 h2 {
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100px;
+  }
+
+  .col-md-6 p {
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+
+
+
   section .row img {
     margin: 0 0 30px;
     width: 100%;
-  }
-  
-  .col-md-6 {
-    margin: 0 0 30px;
   }
   
   .btn.btn-primary {
@@ -89,7 +111,7 @@
     background-color: #ffffff;
   }
   
-  .btn.btn-primary:hover {
+  .btn.btn-primary:active {
     color: #ffffff;
     background-color: #fbd1d5;
   }
