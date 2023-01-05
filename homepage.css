@@ -2,10 +2,15 @@
    @last_modified 04/01/23
    Purpose: CSS stylesheet for homepage of personal website (index.html) */
 
+html, body {
+    display: flex;
+}
 
 h1 {
-    color: red;
-    font-size: 10px;
+    color: black;
+    font-size: 100px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
 
