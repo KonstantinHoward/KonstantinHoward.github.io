@@ -80,8 +80,9 @@
     font-family:'Courier New', Courier, monospace;
     border:rgb(16, 181, 227);
     border-style: solid;
+    max-width: 100%;
     height: auto;
-    width: auto;
+   
   }
 
   .col-md-6 h2 {
