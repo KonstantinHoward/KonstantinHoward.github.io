@@ -1,0 +1,49 @@
+/*  @author Konstantin Howard
+    @last_modified 06/01/23
+    Purpose: CSS style sheet for website header to be included on every page */
+
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0;
+    padding-bottom: 0px;
+    border-bottom-style: solid;
+  }
+  
+  header .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header .btn-secondary {
+    background-color: white;
+    color: #000000;
+    border: 0px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 100;
+    font-weight: 100px;
+  }
+
+  header .btn-secondary:hover {
+    background-color:rgb(62, 181, 221);
+    margin-top: 8px;
+  }
+
+  /* id selector for the button of the section 
+  of website currently open (Music, Academic, Gallery) */
+  header #current {
+    background-color: lightseagreen;
+  }

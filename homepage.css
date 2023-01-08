@@ -7,43 +7,6 @@
     background-color: white;
   }
   
-  header {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 30px 0;
-  }
-  
-  header .row,
-  footer .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  header h1 {
-    font-weight: 700;
-    margin: 0;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  header .btn-secondary {
-    background-color: white;
-    color: #000000;
-    border: 0px;
-    margin: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 100;
-    font-weight: 100px;
-  }
-
-  header .btn-secondary:hover {
-    background-color:rgb(62, 181, 221);
-    margin-top: 8px;
-  }
 
   
   .jumbotron-flex welcome {
@@ -52,7 +15,7 @@
     justify-content: center;
     background-size: cover;
     background-image: url(Photos/Lake\ in\ December.JPG);
-    height: 600px;
+    height: 400px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
     padding: 0px;
     border: rgb(16, 181, 227);
@@ -132,6 +95,12 @@
     padding-bottom: 0;
     margin-top: 10px;
     border-top-style: solid;
+  }
+
+  footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   
