@@ -10,13 +10,30 @@ body {
     margin-top: 10px;
     border-style: solid;
     border-color: black;
+    position: relative;
+    float: left;
 }
 
 .col-md-3 h2 {
     justify-content: center;
 }
 
-.carousel-item {
-    height: 200px;
+.col-md-9 {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
+
+.carousel-image {
+    height: 10rem;
+    width: 20rem;
+    
+    
+}
+
+
+
+
 
