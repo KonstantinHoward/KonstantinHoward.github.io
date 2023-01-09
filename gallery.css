@@ -16,4 +16,7 @@ body {
     justify-content: center;
 }
 
+.carousel-item {
+    height: 200px;
+}
 
