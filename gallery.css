@@ -34,7 +34,7 @@ body {
 
 .carousel-image {
     height: auto;
-    width: auto;
+    width: inherit;
     padding: 0;
 }
 
