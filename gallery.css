@@ -1,22 +1,26 @@
 body {
-    font-family:'Courier New', Courier, monospace;
-    align-items: center;
+    font-family:'Courier', monospace;
     justify-content: center;
+    
+}
+
+.row {
+    margin-bottom: 10px;
+    
 }
 
 .col-md-3 {
     display: flex;
     margin: 0;
     margin-top: 10px;
-    border-style: solid;
+    border-style: double;
     border-color: black;
     position: relative;
     float: left;
+    
 }
 
-.col-md-3 h2 {
-    justify-content: center;
-}
+
 
 .col-md-9 {
     float: right;
@@ -24,15 +28,48 @@ body {
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    border-style: hidden;
 }
+
 
 .carousel-image {
-    height: 10rem;
-    width: 20rem;
-    
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+
+.carousel-caption {
+    opacity: 0;
+    transition: 500ms ease-in-out;
+    padding-bottom: 0px;
+}
+
+.carousel-item:hover .carousel-caption {
+    opacity: 1;
+}
+
+ul {
+    font-size: 25px;
     
 }
 
+li {
+    font-size: 20px;
+}
+
+li .btn.btn-primary {
+    background-color: white;
+    color: black;
+    border-style: hidden;
+    transition: 250ms ease-in-out;
+}
+
+li .btn.btn-primary:hover {
+    background-color: rgb(88, 162, 247);
+    color: black;
+
+    
+}
 
 
 

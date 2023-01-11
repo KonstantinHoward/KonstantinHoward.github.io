@@ -21,6 +21,7 @@
     border: rgb(16, 181, 227);
     border-style:solid;
     margin: 0px;
+    margin-bottom: 10px;
     
   }
 
@@ -38,18 +39,17 @@
   .col-md-6 img {
     align-items: center;
     justify-content: center;
-    font-family:'Courier New', Courier, monospace;
     border:rgb(16, 181, 227);
     border-style: solid;
     max-width: 100%;
     height: auto;
-   
+    margin-top: 10px;
   }
 
   .col-md-6 h2 {
     align-items: center;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier', monospace;
     font-weight: 500px;
     
   }
@@ -70,24 +70,8 @@
     width: 100%;
   }
   
-  .btn.btn-primary {
-    border-radius: 2px;
-    border: 0px;
-    color: #ffffff;
-    text-shadow: none;
-    background-color: #ffffff;
-  }
+ 
   
-  .btn.btn-primary:active {
-    color: #ffffff;
-    background-color: #fbd1d5;
-  }
-  
-  .btn-secondary {
-    background-color: #ffffff;
-    color: #ffffff;
-    margin: 0 0 30px;
-  }
   
   footer {
     font-size: 12px;
