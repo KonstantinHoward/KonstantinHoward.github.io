@@ -1,12 +1,18 @@
 body {
     font-family:'Courier', monospace;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .row {
     margin-bottom: 10px;
     justify-content: center;
+    
+}
+
+.row p {
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 
