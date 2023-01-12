@@ -5,9 +5,7 @@ body {
 }
 
 .row {
-    
     margin: 0 0 0 0;
-    
 }
 
 .row p {
@@ -37,7 +35,23 @@ body {
     justify-content: center;
     border-style: hidden;
 }
+/* Thanks to @ccoulter-eaglemed */
+.carousel-inner .carousel-item {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    position: absolute;
+  }
+  .carousel-inner .carousel-item:first-of-type {
+    position: relative;
+  }
+  .carousel-inner .active {
+    opacity: 1;
+  }
 
+/* for the above fix for flashing carousel */
 
 .carousel-image {
     height: auto;

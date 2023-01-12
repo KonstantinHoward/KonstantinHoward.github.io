@@ -1,0 +1,41 @@
+body {
+    font-family:'Courier', monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin: 0 0 0 0;
+}
+
+.row p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-md-6 h2 {
+
+}
+
+.col-md-6 p {
+
+}
+
+.col-md-3 {
+    padding: 0;
+    justify-content: center;
+}
+
+.col-md-3 #portrait {
+    float: left;
+    height: 320px;
+    width: auto;
+}
+
+.col-md-3 .logo {
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    
+}
