@@ -79,12 +79,13 @@
     padding-bottom: 0;
     margin-top: 10px;
     border-top-style: solid;
+    align-items: center;
+    justify-content: center;
   }
 
   footer .row {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
   }
   
   
