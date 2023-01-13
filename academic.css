@@ -38,12 +38,52 @@ body {
     display: flex;
 }
 
-.btn.btn-primary {
-    margin: 20px;
-    background-color: green;
-    opacity: 0.6;
+.col-md-12 {
+   
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+}
+nav ul {
+    display:block; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    
+    list-style: none;
 }
 
-.btn.btn-primary:hover {
-    margin-top: 0px;
+li p {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+li h2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+li .btn.btn-primary {
+    
+    background-color: orange;
+    color: black;
+    border-style: hidden;
+    transition: 250ms ease-in-out;
+    width: inherit;
+    display: block; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+li .btn.btn-primary:hover {
+    background-color: rgb(251, 102, 2);
+    color: black;
+   
+    
+
+    
 }
