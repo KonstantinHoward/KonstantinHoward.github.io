@@ -22,7 +22,7 @@ body {
 
 .col-md-6 p {
     margin-top: 20px; 
-    font-size: 16px
+    font-size: 18px;
 }
 
 .logo {
@@ -39,33 +39,17 @@ body {
 }
 
 .col-md-12 {
-   
+    flex-wrap: wrap;
     display:flex; 
     justify-content: center; 
     align-items: center;
-}
-nav ul {
-    display:block; 
-    justify-content: center; 
-    align-items: center;
-    width: 100%;
-    
-    list-style: none;
+    border-style: hidden;
+    padding: 0;
 }
 
-li p {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
 
-li h2 {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
 
-li .btn.btn-primary {
+ .btn.btn-primary {
     
     background-color: orange;
     color: black;
@@ -77,9 +61,10 @@ li .btn.btn-primary {
     align-items: center;
     text-align: center;
     margin: 20px;
+    
 }
 
-li .btn.btn-primary:hover {
+ .btn.btn-primary:hover {
     background-color: rgb(251, 102, 2);
     color: black;
    
