@@ -1,3 +1,75 @@
-.col-md-3 img {
-    margin: 0;
+body {
+    font-family: Courier, monospace;
 }
+
+
+
+
+
+.inpage {
+    flex-wrap: wrap;
+    display:flex; 
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: black;
+    border-style: hidden;
+    margin-top: 20px;
+}
+
+#photo {
+    background-color: rgb(141, 100, 237);
+}
+
+#about {
+    background-color: cornflowerblue;
+}
+
+#transcribe {
+    background-color: cornflowerblue;
+}
+
+#arrange {
+    background-color: rgb(237, 100, 125);
+    background-color: rgb(141, 100, 237);
+}
+
+
+
+.col-md-5 img {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .col-md-5 .overwrite {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .inpage .btn.btn-secondary {
+    background-color:white;
+    color: black;
+
+  }
+
+  .inpage .btn.btn-secondary:hover {
+    background-color:rgb(16, 181, 227);
+    color: white;
+  }
