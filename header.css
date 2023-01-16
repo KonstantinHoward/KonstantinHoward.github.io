@@ -8,6 +8,7 @@ header {
     padding: 20px 0;
     padding-bottom: 0px;
     border-bottom-style: solid;
+    background-color: white;
   }
   
   header .row {

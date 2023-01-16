@@ -66,9 +66,55 @@ body {
 
  .btn.btn-primary:hover {
     background-color: rgb(251, 102, 2);
-    color: black;
-   
-    
-
-    
+    color: black;   
 }
+
+.col-md-10 {
+    border-style: solid;
+}
+
+.col-md-10 h3 {
+    font-size: 20px;
+}
+
+.col-md-10 p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.btn.btn-danger {
+    background-color:green;
+    border-color: black;
+    text-align: center;
+    vertical-align: center;
+    font-size: 30px;
+    display: table;
+    transition: 250ms ease-in-out;
+}
+
+.btn.btn-danger h2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn.btn-danger:hover {
+    background-color: green;
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 30px;
+}
+
+.btn.btn-danger:active {
+    background-color: rgb(0, 87, 128);
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 20px;
+}
+
+i {
+    margin-left:5%;
+}
+
+
+
+

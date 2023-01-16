@@ -1,8 +1,13 @@
 body {
     font-family: Courier, monospace;
+    
+    
 }
 
 
+a {
+    color: red;
+}
 
 
 
@@ -37,14 +42,14 @@ body {
 
 
 
-.col-md-5 img {
+.col-md-4 img {
     align-items: center;
     justify-content: center;
     max-width: 100%;
     height: auto;
   }
 
-  .col-md-5 .overwrite {
+  .col-md-4 .overwrite {
     position: absolute;
     bottom: 5%;
     left: 50%;
@@ -60,7 +65,11 @@ body {
   }
 
   p {
-    font-size: 14px;
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 32px;
   }
 
   .inpage .btn.btn-secondary {
@@ -70,6 +79,6 @@ body {
   }
 
   .inpage .btn.btn-secondary:hover {
-    background-color:rgb(16, 181, 227);
+    background-color:red;
     color: white;
   }
