@@ -70,8 +70,18 @@
 
      <footer>
       <div class="row">
-        <p> Last updated November 2023. </p>
+        <p> Last updated November 2023.</p>
+        <p id="visits"></p>
       </div>
+      <script>
+          let visits = 1;
+          if (localStorage.getItem("visits")) {
+            visits = parseInt(localStorage.getItem("visits"))++;
+          }
+          localStorage.setItem("visits", visits);
+          document.getElementById("visits").innerText = "You are visitor " + visits;
+
+      </script>
       
      </footer>
       
