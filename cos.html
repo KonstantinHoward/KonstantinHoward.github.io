@@ -33,6 +33,22 @@
         
         <section class="row" style="margin-top: 20px;">
           <div class="col-md-10">
+            <h3><b>UDPing</b></h3>
+            <p> This console app built with C# and .NET Core implements the functionality of the built-in command line tool ping.
+              Ping is a diagnostic tool used to test the health of another device by "pinging" its IP address. It uses the <a href="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol">ICMP</a>
+              protocol and sits at the network layer. Sending pings (data packets) synchronously at the network layer can prove to be a bottle-neck
+              when pinging a large number of devices. Using UDP transport protocol and sockets to send and receive pings asynchronously, this application
+              tremendously reduces round-trip packet times and the time to ping multiple addresses. This was a fun first project using C# and .NET. I especially
+              liked how intutively concurrency is handled in C# and used that to implement asynchronous pinging.
+            </p>
+          </div>
+          <a href="https://github.com/KonstantinHoward/UDPing" class="col-md-2 btn btn-danger">
+            <h2>GitHub Repo</h2>
+          </a>
+      </section> 
+
+        <section class="row" style="margin-top: 20px;">
+          <div class="col-md-10">
             <h3><b>Estimating Tumor Necrosis in Glioblastoma Histologies</b></h3>
             <p> Abstract: Glioblastoma is an aggressive cancer in the brain capable of killing a victim within six months
               and with a 17% survival rate after two years [12]. Immediate diagnosis and rapid treatment is

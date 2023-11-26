@@ -1,8 +1,4 @@
-/* @author Konstantin Howard
-   @last_modified 05/01/23
-   Purpose: CSS stylesheet for homepage of personal website (index.html) */
-
-   body {
+body {
     font-weight: 300;
     background-color: white;
   }
